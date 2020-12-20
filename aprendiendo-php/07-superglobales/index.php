@@ -1,5 +1,6 @@
 <?php
 
+//http://localhost/PHP/MASTER-PHP/aprendiendo-php/07-superglobales/index.php
 // Variables superglobales
 
 // Variables de servidor
