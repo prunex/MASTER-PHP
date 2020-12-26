@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
  * localhost/PHP/MASTER-PHP/aprendiendo-php/12-funciones/variables.php
  * 
  * Variables locales: 
@@ -18,9 +18,35 @@
 // Variable global
 $saludo = "Hola, mundo!";
 
-function holaMundo(){
+function holaMundo() {
     //Sino no declaramos la variable global no se puede usar.
-    global $saludo; 
+    global $saludo;
     echo $saludo;
+
+    // Por defecto una variable local, en este caso, dentro de una funcion
+    // no se puede usar fuera de la funcion, a no ser que la dicha funcion
+    // la devuelve donde luego llamandola podemos usarla.
+    return $year = 2020;
 }
-holaMundo();
+
+echo holaMundo();
+
+// FUNCIONES VARIABLES
+function buenosDias() {
+    return "Hola! Buenos dias!";
+}
+
+function buenasTardes() {
+    return "Buenas tardes!";
+}
+
+function buenasNoches() {
+    return "Buenas noches!";
+}
+
+$horario = "buenasNoches";
+echo "<br/>".$horario();
+
+$horario2 = "Noches";
+$miFuncion = "Buenas" . $horario2;
+echo $miFuncion;
