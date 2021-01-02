@@ -70,5 +70,58 @@ foreach ($array4_coches as $value) {
     echo $value . "</br>";
 }
 
+echo "<hr/>";
+
 // Array asociativo
-// Anteriormente 
+// Anteriormente hemos trabajado con los arrays normales pero ahora vamos a 
+//      un indice asociativo al valor de nuestro array.
+// Se declara asi
+$personas = array(
+    "nombre" => "Remus",
+    "apellidos" => "Pruna",
+    "web" => "google.es"
+);
+var_dump($personas);
+echo "</br>";
+echo $personas["apellidos"];
+echo "</br>";
+//  Recorer un array asociativo for foreach version completa
+foreach ($personas as $key => $value) {
+    echo "\$personas[$key]= $value </br>";
+}
+
+echo "<hr/>";
+
+// Array multidimensional
+$array_contactos = array(
+    array(
+        "nombre" => "Remus",
+        "apellido" => "Pruna",
+        "web" => "remuspruna.es"
+    ),
+    array(
+        "nombre" => "Pepe",
+        "apellido" => "Llario",
+        "web" => "pepellario.es"
+    ),
+    array(
+        "nombre" => "Manolo",
+        "apellido" => "Manuel",
+        "web" => "manolomanuel.es"
+    ),
+    array(
+        "nombre" => "Paco",
+        "apellido" => "Pacolino",
+        "web" => "pacopacolino.es"
+    ),
+);
+var_dump($array_contactos);
+echo "</br>";
+
+foreach ($array_contactos as $key => $values) {
+    echo "[$key] ";
+    foreach ($values as $key => $value) {
+        echo $key .": " . $value . "; ";
+    }
+    echo "</br>";
+}
