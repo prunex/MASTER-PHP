@@ -6,8 +6,8 @@
 
 /* Se crea una base de datos
  * URL: http://localhost/phpmyadmin
- * User: root
- * Pass:
+ * User: toor
+ * Pass: qwer.1234
  * BBDD: phpmysql
  */
 
@@ -16,9 +16,9 @@ $host = "localhost";
 $username = "toor";
 $passwd = "qwer.1234";
 $dbname = "phpmysql";
+//$port = 3306;
 // $conexion = mysqli_connect($host, $username, $passwd, $dbname, $port, $socket);
 $conexion = mysqli_connect($host, $username, $passwd, $dbname);
-// var_dump($conexion -> connect_errno);
 //var_dump($conexion);
 echo "<hr>";
 
