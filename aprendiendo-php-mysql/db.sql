@@ -8,6 +8,17 @@
  * Created: Feb 18, 2021
  */
 
+
+/*
+CREATE A GENERAL USER WITH PRIVILEGES
+*/
+-- CREATE USER 'toor'@'%' IDENTIFIED BY 'qwer.1234';
+-- GRANT ALL PRIVILEGES ON *.* TO 'toor'@'%';
+-- FLUSH PRIVILEGES;
+
+/*
+Create a small DB with tables and datas.
+*/
 DROP DATABASE IF EXISTS phpmysql;
 CREATE DATABASE IF NOT EXISTS phpmysql;
 SHOW DATABASES;

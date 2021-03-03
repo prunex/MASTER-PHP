@@ -22,7 +22,6 @@ $conexion = mysqli_connect($host, $username, $passwd, $dbname);
 //var_dump($conexion);
 echo "<hr>";
 
-
 // Comprobar conexion
 if (mysqli_connect_errno()) {
     if ($conexion) {
@@ -46,19 +45,50 @@ echo "<br>";
 $link = $conexion;
 $query = "SELECT * FROM notas";
 $query_notas = mysqli_query($link, $query);
+
+// LINK: https://phppot.com/mysql/mysql-fetch-using-php/
 //$notas = mysqli_fetch_assoc($query_notas);
-//$notas = mysqli_fetch_object($query_notas);
+// var_dump(mysqli_fetch_object($query_notas)) ;
 //var_dump((mysqli_fetch_assoc($query_notas)));
 //echo "<hr>";
 //var_dump(mysqli_fetch_object($query_notas));
 //echo "<hr>";
 //var_dump($notas);
 
-// Leer los datos
+// Obtiene el numero de campos de un resultado
+echo "Hay " . mysqli_num_fields($query_notas) . " columnas.";
+//var_dump(mysqli_num_fields($query_notas));
+echo "<br>";
+
+// Obtener el numero de columnas de una consulta
+echo "Hay " . mysqli_num_rows($query_notas) . " filas.";
+echo "<br>";
+
+// Dibujar una tabla con nombres de las columnas
+echo "<table style='border: 1px solid black'>";
+echo "<tr>";
+$row = mysqli_fetch_assoc($query_notas);
+foreach ($row as $column => $key){
+    echo "<th>" . $column . "</th>";
+}
+echo "</tr>";
+echo "<tr>";
 while($nota = mysqli_fetch_assoc($query_notas)){
     //var_dump($nota);
-    echo $nota["id"] . ") " . $nota["titulo"] . " => " . $nota["descripcion"] . "<br>";
+    //echo $nota["id"] . ") " . $nota["titulo"] . " => " . $nota["descripcion"] . "<br>";
+    echo "<td>" . $nota["id"] . "</td>";
+    echo "<td>" . $nota["titulo"] . "</td>";
+    echo "<td>" . $nota["descripcion"] . "</td>";
+    echo "<td>" . $nota["color"] . "</td>";
 }
+echo "</tr>";
+echo "</table>";
+
+// Leer los datos
+//while($nota = mysqli_fetch_assoc($query_notas)){
+//    //var_dump($nota);
+//    echo $nota["id"] . ") " . $nota["titulo"] . " => " . $nota["descripcion"] . "<br>";
+//}
 //foreach(mysqli_fetch_assoc($query_notas) as $nota => $value){
 //    echo $nota . " => " . $value . "<br>";
 //}
