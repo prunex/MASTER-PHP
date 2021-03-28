@@ -1,7 +1,8 @@
 <?php
 
 /*
- * URL: localhost/PHP/MASTER-PHP/aprendiendo-php-mysql/index.php
+ * URL Linux/Windows: localhost/PHP/MASTER-PHP/aprendiendo-php-mysql/index.php
+ * URL MacOSX: localhost:8888/MASTER-PHP/aprendiendo-php-mysql/index.php
  */
 
 /* Se crea una base de datos
