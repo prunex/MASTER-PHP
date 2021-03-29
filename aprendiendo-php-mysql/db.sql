@@ -32,5 +32,7 @@ CREATE TABLE `phpmysql`.`notas` (
 PRIMARY KEY (`id`)
 ) ENGINE = InnoDB;
 
-INSERT INTO notas (id, titulo, descripcion, color) VALUES (NULL, "Nota 1", "Hacer los ejercicios de SQL", "red");
-INSERT INTO notas (id, titulo, descripcion, color) VALUES (NULL, "Aprendiendo PHP", "Master de PHP de R.I.Pruna", "yellow");
+INSERT INTO notas (id, titulo, descripcion, color)
+    VALUES (NULL, "Nota 1", "Hacer los ejercicios de SQL", "red");
+INSERT INTO notas (id, titulo, descripcion, color) 
+    VALUES (NULL, "Aprendiendo PHP", "Master de PHP de R.I.Pruna", "yellow");

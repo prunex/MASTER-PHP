@@ -50,7 +50,6 @@ $query_notas = mysqli_query($link, $query);
 // LINK: https://phppot.com/mysql/mysql-fetch-using-php/
 // LINK: https://www.php.net/manual/es/mysqli-result.fetch-array.php
 // LINK: https://www.php.net/manual/en/class.mysqli-result.php
-
 //$notas = mysqli_fetch_assoc($query_notas);
 // var_dump(mysqli_fetch_object($query_notas)) ;
 //var_dump((mysqli_fetch_assoc($query_notas)));
@@ -97,12 +96,35 @@ $query_notas = mysqli_query($link, $query);
 ////}
 // Obtener el tipo de variable
 var_dump(gettype($query_notas)); //Object
-echo "<br>";
+echo "<hr>";
 
 // Mostrar la informacion sobre la variable
 // Representa el conjunto de resultados obtenido de una consulta en la base de datos.
+echo "Representa el conjunto de resultados obtenido de una consulta en la base de datos.<br>";
 var_dump($query_notas);
-echo "<br>";
+echo "<hr>";
+
+//echo "Obtener todas las filas en un array asociativo, numérico, o en ambos<br>";
+//var_dump(mysqli_fetch_all($query_notas));
+//echo "<hr>";
+
+// echo "Obtiene una fila de resultados como un array asociativo, numérico, o ambos<br>";
+//var_dump(mysqli_fetch_array($query_notas));
+//echo "<hr>";
+
+// echo "Obtener una fila de resultado como un array asociativo<br>";
+//var_dump(mysqli_fetch_assoc($query_notas));
+//echo "<hr>";
+
+//echo "Obtener los metadatos de un único campo<br>";
+//var_dump(mysql_fetch_field($query_notas, 0));
+//echo "<hr>";
+
+//echo "Retorna el próximo campo del resultset<br>";
+//var_dump(mysqli_fetch_field($query_notas));
+//echo "<hr>";
+
+
 
 // FUNCCION€$ INICIO
 function checkError($conexion) {
@@ -117,4 +139,5 @@ function checkError($conexion) {
         }
     }
 }
+
 // FUNCCION€$ FIN
