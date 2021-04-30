@@ -7,7 +7,7 @@
  */
 
 /*
- * URL Linux/Windows: localhost/PHP/MASTER-PHP/aprendiendo-php-mysql/index1.php
+ * URL Linux/Windows: 192.168.1.10/PHP/MASTER-PHP/aprendiendo-php-mysql/index1.php
  * URL MacOSX: localhost:8888/MASTER-PHP/aprendiendo-php-mysql/index1.php
  */
 
