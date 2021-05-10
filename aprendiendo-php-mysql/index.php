@@ -28,7 +28,7 @@ if (mysqli_connect_errno()) {
     if ($conexion) {
         checkError($conexion);
     } else {
-        echo "Check input for username, password and dbname";
+        echo "Check input for username, password and/or dbname";
     }
 } else {
     echo "Connected successfully <br>";
