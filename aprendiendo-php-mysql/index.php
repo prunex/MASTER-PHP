@@ -60,6 +60,15 @@ while($nota = mysqli_fetch_assoc($query_notas)){
     echo $nota["color"] . "<br>";
 }
 
+// Insertar en la BBDD desde PHP
+$query = "INSERT INTO notas VALUES (null, 'Nota desde PHP', 'Esto es una nota de PHP', 'green')";
+$insert = mysqli_query($link, $query);
+if($insert){
+    echo "DATOS INSERTADOS CORRECTAMENTE";
+} else {
+    echo "Error: " . mysqli.error($link);
+}
+
 // FUNCCION€$ INICIO
 
 function checkError($conexion) {
