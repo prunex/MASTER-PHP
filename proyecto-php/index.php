@@ -7,8 +7,8 @@
  */
 
 /*
- * URL Linux/Windows: 192.168.1.10/PHP/MASTER-PHP/proyecto-php/index.php
-    * URL MacOSX: localhost:8888/MASTER-PHP/proyecto-php/index.php
+ * URL Linux/Windows: localhost/PHP/MASTER-PHP/proyecto-php/index.php
+ * URL MacOSX: localhost:8888/MASTER-PHP/proyecto-php/index.php
  */
 
 echo "Hello";
