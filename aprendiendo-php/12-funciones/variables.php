@@ -1,8 +1,14 @@
 <?php
 
 /*
- * localhost/PHP/MASTER-PHP/aprendiendo-php/12-funciones/variables.php
+ * Linux/UNIX, Windows:
+ * http://localhost/PHP/MASTER-PHP/aprendiendo-php/12-funciones/variables.php
  * 
+ * MacOS: 
+ * http://localhost/MASTER-PHP/aprendiendo-php/12-funciones/variables.php
+ */
+
+ /* 
  * Variables locales: 
  * Son las que se define dentro de una funcion y no se pueden ser usadas
  * fuera de la funcion, solo estan disponibles dentro.
