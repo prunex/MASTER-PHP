@@ -54,5 +54,11 @@ if (isset($_POST["submit"])) {
     $guardar_usuario = false;
     if(count($errores) == 0){
         $guardar_usuario = true;
+        
+        // INSERTAR USUARIO EN LA TABLA USUARIOS DE LA BBDD
+        
+    } else{
+        var_dump($errores);
     }
+    
 }
