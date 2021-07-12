@@ -1,7 +1,11 @@
 <?php
 
 /*
- * localhost/PHP/MASTER-PHP/aprendiendo-php/12-funciones/predefinidas.php
+ * Linux/UNIX, Windows:
+ * http://localhost/PHP/MASTER-PHP/aprendiendo-php/12-funciones/predefinidas.php
+ * 
+ * MacOS: 
+ * http://localhost/MASTER-PHP/aprendiendo-php/12-funciones/predefinidas.php
  */
 
 
