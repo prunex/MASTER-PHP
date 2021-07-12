@@ -1,4 +1,4 @@
-<!--   localhost/PHP/MASTER-PHP/aprendiendo-php/13-includes/ -->
+<!--   http://localhost/PHP/MASTER-PHP/aprendiendo-php/13-includes/ -->
 
 <?php include_once "includes/cabecera.php" ?>
     

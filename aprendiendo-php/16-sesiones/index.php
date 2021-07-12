@@ -2,7 +2,7 @@
 
 /* 
  * URL: 
- * localhost/PHP/MASTER-PHP/aprendiendo-php/16-sesiones/index.php
+ * http://localhost/PHP/MASTER-PHP/aprendiendo-php/16-sesiones/index.php
  * 
  * Cookies
  * Almacena y persiste datos del usuario mientras que navega en un sitio web
