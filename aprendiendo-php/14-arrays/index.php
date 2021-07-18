@@ -1,7 +1,14 @@
 <?php
 
 /*
- * URL: localhost/PHP/MASTER-PHP/aprendiendo-php/14-arrays
+ * Linux/UNIX, Windows:
+ * http://localhost/PHP/MASTER-PHP/aprendiendo-php/14-arrays
+ * 
+ * MacOS:
+ * http://localhost/MASTER-PHP/aprendiendo-php/14-arrays 
+ */ 
+ 
+/* 
  * Arrays
  * DEF: Es un colecion o conjunto de datos/valores del mismo tipo, 
  *      bajo un unico nombre. Para acceder a los valores del array se puede usar

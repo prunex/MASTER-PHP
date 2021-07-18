@@ -1,4 +1,10 @@
-<!--   localhost/PHP/MASTER-PHP/aprendiendo-php/13-includes/ -->
+<!--   
+    Linux/UNIX, Windows:
+    http://localhost/PHP/MASTER-PHP/aprendiendo-php/13-includes/ 
+
+    MacOS: 
+    http://localhost/MASTER-PHP/aprendiendo-php/13-includes/
+-->
 
 <?php include_once "includes/cabecera.php" ?>
     

@@ -1,4 +1,10 @@
-<!--   localhost/PHP/MASTER-PHP/aprendiendo-php/13-includes2/ -->
+<!--   
+    Linux/UNIX, Windows:
+    http://localhost/PHP/MASTER-PHP/aprendiendo-php/13-includes2/
+
+    MacOS:
+    http://localhost/MASTER-PHP/aprendiendo-php/13-includes2/
+-->
 
 <!DOCTYPE html>
 <html lang="en">
