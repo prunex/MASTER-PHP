@@ -6,7 +6,7 @@
 
 // Crear la conexion con la base de datos
 $servidor = "localhost";
-$usuario = "toor";
+$usuario = "root";
 $password = "qwer.1234";
 $basededatos = "blog_master";
 //$port = 3306;
