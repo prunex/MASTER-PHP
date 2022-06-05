@@ -19,6 +19,7 @@ if (isset($_GET["counter"]) && $_GET["counter"] == 1) {
 if (isset($_GET["counter"]) && $_GET["counter"] == 0) {
     $_SESSION["numero"] -= 1;
 }
+//EOF
 ?>
 
 <h1>El valor de la sesion numeor es: <?= $_SESSION["numero"] ?></h1>
@@ -26,3 +27,4 @@ if (isset($_GET["counter"]) && $_GET["counter"] == 0) {
 <a href="ejercicio1.php?counter=1">Aumentar el valor</a>
 <br>
 <a href="ejercicio1.php?counter=0">Disminuir el valor</a>
+
