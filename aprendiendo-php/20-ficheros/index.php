@@ -29,7 +29,7 @@ $text = "Soy un texto metido desde php <br>";
 fwrite($archivo, $text);
 // NOTA: En sistemas OS Linux/UNIX se debe de dar permisos de lectura y 
 //      escritura para que se puedan hacer modificaciones sobre el dicho
-//      fichero.
+//      fichero. sudo chown -R www-data:www-data fichero_texto.txt
 // El cierre de un fichero se hace con la funcion "fclose"
 fclose($archivo);
 
